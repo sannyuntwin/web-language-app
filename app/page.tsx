@@ -14,9 +14,7 @@ export default function HomePage() {
           <Link href="/download" className="hover:underline">
             Download
           </Link>
-          <Link href="/login" className="font-medium">
-            Login
-          </Link>
+          {/* Login functionality temporarily disabled */}
         </nav>
       </header>
 
