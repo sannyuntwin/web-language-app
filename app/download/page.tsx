@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function DownloadPage() {
   const apkDownloadUrl =
-    "https://drive.google.com/uc?export=download&id=1N0f9WbCY9CuUkD6sryPIc2cUgsyCUAlk";
+    "https://drive.google.com/uc?export=download&id=144VICwY5DzTo5G_uNvIpbkFu88OpkfRg";
 
   return (
     <main className="min-h-screen flex flex-col items-center justify-center px-6 text-center">
