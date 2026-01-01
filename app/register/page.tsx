@@ -42,15 +42,18 @@ export default function RegisterPage() {
 //   };
 
   return (
-    <main className="min-h-screen flex items-center justify-center px-6">
+    <main className="min-h-screen flex items-center justify-center px-6" style={{backgroundColor: '#ffffff', color: '#171717'}}>
       <div className="w-full max-w-md border rounded-lg p-8">
         {/* Title */}
-        <h1 className="text-2xl font-bold mb-2 text-center">
-          Create an Account
-        </h1>
-        <p className="text-gray-600 text-sm mb-6 text-center">
-          Sign up to start using MyApp.
-        </p>
+        <div className="text-center mb-6">
+          <div className="text-4xl mb-2">📝🇲🇲</div>
+          <h1 className="text-2xl font-bold mb-2">
+            Join MyanmarLearn
+          </h1>
+          <p className="text-gray-600 text-sm">
+            Sign up to start your Myanmar language learning journey!
+          </p>
+        </div>
 
         {/* Error */}
         {error && (
@@ -107,7 +110,7 @@ export default function RegisterPage() {
             disabled={loading}
             className="w-full bg-black text-white py-2 rounded-md hover:opacity-90 disabled:opacity-50"
           >
-            {loading ? "Creating account..." : "Register"}
+            {loading ? "Creating account..." : "🇲🇲 Register for MyanmarLearn"}
           </button>
         </form>
 
@@ -120,9 +123,13 @@ export default function RegisterPage() {
         </div>
 
         <div className="text-sm text-center mt-2">
-          <Link href="/" className="underline">
+          🏠 <Link href="/" className="underline font-medium">
             ← Back to Home
           </Link>
+        </div>
+
+        <div className="text-xs text-gray-500 text-center mt-4">
+          🌸 Welcome to MyanmarLearn! 🇲🇲
         </div>
       </div>
     </main>
